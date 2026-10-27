@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>dnsguard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<h1>dnsguard</h1>
+<p id="summary">
+  <span id="conn">connecting</span> |
+  queries <b id="t-total">0</b> |
+  blocked <b id="t-blocked">0</b> |
+  cache hit rate <b id="t-cache">0%</b>
+</p>
+<p id="msg" role="status">&nbsp;</p>
+
+<div class="cols">
+  <div>
+    <h2>Top blocked domains</h2>
+    <table id="top-blocked">
+      <thead><tr><th>Name</th><th>Count</th><th></th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <div>
+    <h2>Top clients</h2>
+    <table id="top-clients">
+      <thead><tr><th>Client</th><th>Count</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+</div>
+
+<h2>Recent queries</h2>
+<table id="recent">
+  <thead><tr><th>Time</th><th>Client</th><th>Name</th><th>Type</th><th>Result</th><th></th></tr></thead>
+  <tbody></tbody>
+</table>
+
+<script src="/app.js"></script>
+</body>
+</html>

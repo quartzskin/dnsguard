@@ -1,0 +1,6 @@
+body { font-family: system-ui, sans-serif; margin: 1em 1.5em; }
+table { border-collapse: collapse; }
+th, td { border: 1px solid #bbb; padding: 0.2em 0.6em; text-align: left; }
+.cols { display: flex; gap: 2em; flex-wrap: wrap; }
+.block { color: #b00020; }
+#conn.down { color: #b00020; }
