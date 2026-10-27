@@ -1,0 +1,12 @@
+{
+  "name": "dnsguard",
+  "version": "0.1.0",
+  "description": "Local DNS filtering forwarder with a web UI",
+  "license": "MIT",
+  "private": true,
+  "bin": { "dnsguard": "bin/dnsguard.js" },
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "test": "node --test \"test/*.test.js\""
+  }
+}

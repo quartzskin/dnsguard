@@ -1,0 +1,10 @@
+node_modules/
+_scratch/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+/dnsguard.json
+/allow.txt
+/deny.txt
+/lists/
